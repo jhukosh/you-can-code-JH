@@ -1,0 +1,50 @@
+/* General */
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px;
+  height: 100%;
+  color: white;
+  background-color: #6666ff;
+  display: flex;
+  font-family: "Ubuntu";
+}
+.container {
+  padding: 0;
+  margin: auto;
+  text-align: center;
+}
+hr {
+  width: 50%;
+  margin: auto;
+  color: white;
+  padding: 0;
+  border: none;
+  border-top: medium double rgb(205, 216, 214);
+}
+h1 {
+  margin: auto;
+  padding-bottom: 20px;
+}
+.heure {
+  display: inline;
+  background-color: rgb(205, 216, 214);
+  color: #4a4ae4;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 70%;
+}
+#horloge {
+  border: 2px rgb(205, 216, 214) solid;
+  text-align: center;
+  font-style: bold;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  border-radius: 30px;
+}
